@@ -19,8 +19,4 @@ For sponsorship, you can send crypto donations to the following addresses:
 - **TRON**: `[Insert TRON Address]`  
   ![TRON QR Code](/assets/img/tron-qr.png)
 
-### Other Donations
-- **Donate**: [Add your donation link, e.g., PayPal or Ko-fi]
-- **Sponsor**: Email [your.email@example.com](mailto:your.email@example.com) for sponsorship opportunities.
-
 Thank you for your support!
