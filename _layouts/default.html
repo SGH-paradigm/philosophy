@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noarchive">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header>
+    <h1><a href="/">{{ site.title }}</a></h1>
+    <nav>
+      <a href="/">Home</a> | <a href="/contact">Contact</a> | <a href="/sponsorship">Sponsorship</a>
+    </nav>
+  </header>
+  <div style="display: flex; max-width: 1200px; margin: 0 auto;">
+    {% include sidebar.html %}
+    <main style="flex: 1; padding: 20px;">
+      {{ content }}
+    </main>
+  </div>
+  <footer>
+    <p>© {{ 'now' | date: '%Y' }} [Your Name]</p>
+  </footer>
+</body>
+</html>
