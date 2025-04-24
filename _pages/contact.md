@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 ## Contact Me
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [yousefyousefi606@gmail.com](mailto:your.email@example.com)
 - **GitHub**: [github.com/username](https://github.com/username)
-
+ResearchGate: Yousef Yousefi
 Reach out for questions or collaboration!
