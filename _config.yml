@@ -1,0 +1,6 @@
+title: Science Generalization Hypothesis
+description: A book by [Your Name]
+theme: minima
+plugins:
+  - jekyll-seo-tag
+permalink: /:title/
