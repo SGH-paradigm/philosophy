@@ -1,0 +1,37 @@
+<aside>
+  <h2>Book Contents</h2>
+  <ul>
+    <li><a href="/opening">Opening</a></li>
+    <li><strong>Philosophy</strong>
+      <ul>
+        <li><a href="/p-1">P-1</a></li>
+        <li><a href="/p-2">P-2</a></li>
+        <li><a href="/p-3">P-3</a></li>
+      </ul>
+    </li>
+    <li><strong>Mathematics</strong>
+      <ul>
+        <li><a href="/a-1-1">A-1-1</a></li>
+        <li><a href="/a-1-2">A-1-2</a></li>
+        <li><a href="/a-2-1">A-2-1</a></li>
+        <li><a href="/a-2-2">A-2-2</a></li>
+      </ul>
+    </li>
+    <li><strong>Physics</strong>
+      <ul>
+        <li><a href="/b-1-1">B-1-1</a></li>
+        <li><a href="/b-1-2">B-1-2</a></li>
+        <li><a href="/b-2-1">B-2-1</a></li>
+        <li><a href="/b-2-2">B-2-2</a></li>
+      </ul>
+    </li>
+    <li><strong>Results</strong>
+      <ul>
+        {% for i in (1..40) %}
+        <li><a href="/r-{{ i }}">R-{{ i }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+    <li><a href="/conclusion">Conclusion</a></li>
+  </ul>
+</aside>
