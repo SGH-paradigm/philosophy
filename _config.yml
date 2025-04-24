@@ -1,6 +1,5 @@
-title: Science Generalization Hypothesis(SGH)
-description: A book by [Yousef Yousefi]
-Welcome to the Science Generalization Hypothesis. 
+title: Science Generalization Hypothesis
+description: A book by Yousef Yousefi
 theme: minima
 plugins:
   - jekyll-seo-tag
