@@ -1,18 +1,13 @@
 ---
-title: Sponsorship
 layout: page
+title: Sponsorship
 permalink: /sponsorship/
 ---
 
-## Support My Work
+## Support My Research
 
-Your support helps advance the *Science Generalization Hypothesis*.
+Your contributions help advance the Science Generalization Hypothesis.
 
-### Crypto Donations
-- **BTC**: `[Your BTC Address]`  
-  ![BTC QR Code](/assets/img/btc-qr.png)
-  
-- **ETH**: `[Your ETH Address]`  
-  ![ETH QR Code](/assets/img/eth-qr.png)
+### Cryptocurrency Donations
 
-*Replace brackets with your actual addresses*
+#### Bitcoin (BTC)
