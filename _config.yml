@@ -2,14 +2,27 @@ title: Science Generalization Hypothesis
 description: A book by Yousef Yousefi
 theme: minima
 plugins:
-  [jekyll-seo-tag]
-permalink: pretty
-include:
-  - _pages
+  - jekyll-seo-tag
+
+# Critical fixes below
+baseurl: "/philosophy"  # Required for project repositories
+url: "https://sgh-paradigm.github.io"  # Your base URL
+include: ["_pages"]  # Must include the pages directory
+
+# Permalink settings
+permalink: pretty  # Generates clean URLs
+
+# Default values
 defaults:
   - scope:
-      path: ""
-      type: "pages"
+      path: "_pages"  # Applies to files in _pages folder
+      type: pages
     values:
-      layout: "page"
-      nav_order: 1
+      layout: page
+      permalink: /:title/  # Ensures /contact/ instead of /pages/contact.html
+      nav_order: 2  # Navigation ordering
+
+  - scope:
+      path: ""  # Applies to all files
+    values:
+      show_in_nav: true
