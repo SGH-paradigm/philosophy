@@ -2,7 +2,7 @@ title: Science Generalization Hypothesis
 description: A book by Yousef Yousefi
 theme: minima
 plugins:
-  - jekyll-seo-tag
+  [jekyll-seo-tag]
 permalink: pretty
 include:
   - _pages
