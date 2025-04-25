@@ -4,11 +4,12 @@ theme: minima
 plugins:
   - jekyll-seo-tag
 permalink: pretty
+include:
+  - _pages
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
-      layout: page
+      layout: "page"
       nav_order: 1
