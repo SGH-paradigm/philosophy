@@ -3,4 +3,12 @@ description: A book by Yousef Yousefi
 theme: minima
 plugins:
   - jekyll-seo-tag
-permalink: /:title/
+permalink: pretty
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      nav_order: 1
