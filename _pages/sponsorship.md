@@ -3,11 +3,6 @@ layout: page
 title: Sponsorship
 permalink: /sponsorship/
 ---
-
-## Support My Research
-
-Your contributions help advance the Science Generalization Hypothesis.
-
-### Cryptocurrency Donations
-
-#### Bitcoin (BTC)
+### Support My Research
+**BTC**: `your_btc_address_here`  
+**ETH**: `your_eth_address_here`
