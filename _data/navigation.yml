@@ -1,6 +1,7 @@
-- name: "Home"
-  link: "/"
-- name: "Contact"
-  link: "/contact/"
-- name: "Sponsorship"
-  link: "/sponsorship/"
+header:
+  - name: "Home"
+    url: "/"
+  - name: "Contact"
+    url: "/contact/"
+  - name: "Sponsorship"
+    url: "/sponsorship/"
