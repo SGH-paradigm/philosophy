@@ -1,7 +1,4 @@
-header:
-  - name: "Home"
-    url: "/"
-  - name: "Contact"
-    url: "/contact/"
-  - name: "Sponsorship"
-    url: "/sponsorship/"
+- name: "Contact"
+  url: "/contact/"  # Must match the title in contact.md
+- name: "Sponsorship"
+  url: "/sponsorship/"
